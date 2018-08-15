@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hexo</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    
+    <meta name="author" content="John Doe"> 
+    <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <link rel="stylesheet" href="/css/diaspora.css">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8691406134231910",
+        enable_page_level_ads: true
+      });
+    </script>
+
+</head>
+
+<body class="loading">
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="icon-home image-icon" href="javascript:;"></a>
+    <div title="播放/暂停" class="icon-play"></div>
+    <h3 class="subtitle"></h3>
+    <div class="social">
+        <!--<div class="like-icon">-->
+            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+        <!--</div>-->
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title"></h1>
+        <div class="stuff">
+            <span>三月 01, 2017</span>
+            
+
+        </div>
+        <div class="content markdown">
+            <hr>
+<h2 id="第一篇测试文章"><a href="#第一篇测试文章" class="headerlink" title="第一篇测试文章"></a>第一篇测试文章</h2><h3 id="Coding-iOS客户端项目介绍"><a href="#Coding-iOS客户端项目介绍" class="headerlink" title="Coding_iOS客户端项目介绍"></a>Coding_iOS客户端项目介绍</h3><p><em>编译环境：Xcode-Version 8.0 (8A218a)</em></p>
+<h4 id="让项目跑起来先"><a href="#让项目跑起来先" class="headerlink" title="让项目跑起来先"></a>让项目跑起来先</h4><p>项目里用到了 <a href="http://cocoapods.org/" target="_blank" rel="noopener">CocoaPods</a> 和 <a href="https://github.com/Carthage/Carthage" target="_blank" rel="noopener">Carthage</a>，如果没有安装的话，需要先自行安装。</p>
+<p>Clone 代码后，初次执行前，需要双击运行根目录下的<code>bootstrap</code>脚本。这个过程涉及到下载依赖，可能会有点久，需耐心等待。</p>
+<p><strong>Tip：由于用到了 submodule，所以必需要把 git 仓库 clone 到本地，而不是只点击‘下载’按钮下载 zip 文件！！！</strong></p>
+<table>
+<thead>
+<tr>
+<th>精彩项目</th>
+<th>任务管理</th>
+<th>项目文档</th>
+<th>代码托管</th>
+<th>趣味冒泡</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="Screenshots/1.png" alt="图片1"></td>
+<td><img src="Screenshots/2.png" alt="图片2"></td>
+<td><img src="Screenshots/3.png" alt="图片3"></td>
+<td><img src="Screenshots/4.png" alt="图片4"></td>
+<td><img src="Screenshots/5.png" alt="图片5"></td>
+</tr>
+</tbody>
+</table>
+<p>####下面介绍一下文件的大概目录先：<br>    .<br>    ├── Coding_iOS<br>    │   ├── Models：数据类<br>    │   ├── Views：视图类<br>    │   │   ├── CCell：所有的CollectionViewCell都在这里<br>    │   │   ├── Cell：所有的TableViewCell都在这里<br>    │   │   └── XXX：ListView（项目、动态、任务、讨论、文档、代码）和InputView（用于聊天和评论的输入框）<br>    │   ├── Controllers：控制器，对应app中的各个页面<br>    │   │   ├── Login：登录页面<br>    │   │   ├── RootControllers：登录后的根页面<br>    │   │   ├── MeSetting：设置信息页面<br>    │   │   └── XXX：其它页面<br>    │   ├── Images：app中用到的所有的图片都在这里<br>    │   ├── Resources：资源文件<br>    │   ├── Util：一些常用控件和Category、Manager之类<br>    │   │   ├── Common<br>    │   │   ├── Manager<br>    │   │   ├── OC_Category<br>    │   │   └── ObjcRuntime<br>    │   └── Vendor：用到的一些第三方类库，一般都有改动<br>    │       ├── AFNetworking<br>    │       ├── AGEmojiKeyboard<br>    │       ├── ASProgressPopUpView<br>    │       ├── ActionSheetPicker<br>    │       ├── FontAwesome+iOS<br>    │       ├── MJPhotoBrowser<br>    │       ├── MLEmojiLabel<br>    │       ├── NSDate+Helper<br>    │       ├── NSStringEmojize<br>    │       ├── PPiAwesomeButton<br>    │       ├── QBImagePickerController<br>    │       ├── RDVTabBarController<br>    │       ├── SMPageControl<br>    │       ├── SVPullToRefresh<br>    │       ├── SWTableViewCell<br>    │       ├── UMENG<br>    │       ├── UMessage_Sdk_1.1.0<br>    │       ├── XGPush<br>    │       ├── XTSegmentControl<br>    │       └── iCarousel<br>    └── Pods：项目使用了<a href="http://code4app.com/article/cocoapods-install-usage" target="_blank" rel="noopener">CocoaPods</a>这个类库管理工具</p>
+<p>####再说下项目的启动流程：<br>在AppDelegate的启动方法中，先设置了一下Appearance的样式，然后根据用户的登录状态选择是去加载登录页面LoginViewController，还是登录后的RootTabViewController页面。</p>
+<p>RootTabViewController继承自第三方库<a href="https://github.com/robbdimitrov/RDVTabBarController" target="_blank" rel="noopener">RDVTabBarController</a>。在RootTabViewController里面依次加载了Project_RootViewController、MyTask_RootViewController、Tweet_RootViewController、Message_RootViewController、Me_RootViewController五个RootViewController，后续的页面跳转都是基于这几个RootViewController引过去的。</p>
+<p>####项目里面还有些需要注意的点</p>
+<ul>
+<li><p>Coding_NetAPIManager：基本上app的所有请求接口都放在了这里。网络请求使用的是<a href="https://github.com/AFNetworking/AFNetworking" target="_blank" rel="noopener">AFNetworking</a>库，与服务器之间的数据交互格式用的都是json（与<a href="https://coding.net" target="_blank" rel="noopener">Coding</a>使用的api一致）。</p>
+</li>
+<li><p>关于推送：刚开始是用的<a href="http://www.umeng.com/" target="_blank" rel="noopener">友盟推送</a>，后来又改用了<a href="http://xg.qq.com/" target="_blank" rel="noopener">腾讯信鸽</a>，因为要兼顾旧版本app的推送，所以服务器是同时保留了两套推送。但是为了确保新版本的app不同时收到双份相同的推送消息，所以当前代码里还存留了友盟的sdk，用于解除推送token与友盟Alias的绑定。</p>
+</li>
+<li><p>关于ProjectViewController：这个就是进入到某个项目之后的页面，这里包含了项目的动态、任务、讨论、文档、代码、成员各类信息，而且每类信息里面还可能会有新的分类（如‘任务’里面还分有各个成员的任务）；这个页面相当的臃肿，我对它们做了拆分，都放在视图类Views目录下面。 首先是把数据列表独立成了对应的XXXListView（如ProjectTaskListView）；然后如果需要标签切换的话，会再新建一个XXXsView（如：ProjectTasksView），在这个视图中，上面会放一个切换栏<a href="https://github.com/xushao1990/XTNews" target="_blank" rel="noopener">XTSegmentControl</a>显示各个标签，下面放一个<a href="https://github.com/nicklockwood/iCarousel" target="_blank" rel="noopener">iCarousel</a>可以滑动显示各个标签的内容；最后这些视图都会存储在ProjectViewController的projectContentDict变量里面，根据顶部导航栏选择的类别，去显示或隐藏对应的视图。</p>
+</li>
+<li><p>关于UIMessageInputView：这个是私信聊天的输入框。因为这个输入框好多地方都有用到（冒泡、任务、讨论的评论还有私信），所以这个输入框就写成了一个相对独立的控件，并且直接显示在了keyWindow里面而不是某个视图里。这里的表情键盘用的是<a href="https://github.com/ayushgoel/AGEmojiKeyboard" target="_blank" rel="noopener">AGEmojiKeyboard</a>改写了一下。</p>
+</li>
+<li><p>关于Emoji：这个，<a href="https://coding.net" target="_blank" rel="noopener">Coding</a>站点的emoji都是用的图片，而且服务器是不接受大部分emoji字符的，所以刚开始的时候app一直不能处理emoji表情；又因为没有emoji图片名和emoji code码的对应关系表，所以拖了很久都没能做好转换。直到在github上面找到了<a href="https://github.com/diy/NSStringEmojize" target="_blank" rel="noopener">NSStringEmojize</a>这个项目；试了一下，虽然也不能全部解析，但是大部分表情都能正确显示了，不能更感谢。</p>
+</li>
+<li><p>关于如何正确显示冒泡的内容：api返回的数据里面，冒泡内容都是html格式，需要做一下预处理；其实私信、讨论里面的内容也是html。解析html的类名是HtmlMediaItem，它是先用<a href="https://github.com/topfunky/hpple" target="_blank" rel="noopener">hpple</a>对html进行了解析，然后把对应的media元素和对应的位置做一个存储，显示的时候便可以根据需要来显示了。</p>
+</li>
+</ul>
+<p>####最后说下<a href="http://cocoapods.org/" target="_blank" rel="noopener">CocoaPods</a>里面用到的第三方类库</p>
+<ul>
+<li><a href="https://github.com/rs/SDWebImage" target="_blank" rel="noopener">SDWebImage</a>：图片加载</li>
+<li><a href="https://github.com/TTTAttributedLabel/TTTAttributedLabel" target="_blank" rel="noopener">TTTAttributedLabel</a>：富文本的label，可点击链接</li>
+<li><a href="https://github.com/wezm/RegexKitLite" target="_blank" rel="noopener">RegexKitLite</a>：正则表达式</li>
+<li><a href="https://github.com/topfunky/hpple" target="_blank" rel="noopener">hpple</a>：html解析</li>
+<li><a href="https://github.com/jdg/MBProgressHUD" target="_blank" rel="noopener">MBProgressHUD</a>：hud提示框</li>
+<li><a href="https://github.com/Sephiroth87/ODRefreshControl" target="_blank" rel="noopener">ODRefreshControl</a>：下拉刷新</li>
+<li><a href="https://github.com/michaeltyson/TPKeyboardAvoiding" target="_blank" rel="noopener">TPKeyboardAvoiding</a>：有文字输入时，能根据键盘是否弹出来调整自身显示内容的位置</li>
+<li><a href="https://github.com/jaydee3/JDStatusBarNotification" target="_blank" rel="noopener">JDStatusBarNotification</a>：状态栏提示框</li>
+<li><a href="https://github.com/zwaldowski/BlocksKit" target="_blank" rel="noopener">BlocksKit</a>：block工具包。将很多需要用delegate实现的方法整合成了block的形式</li>
+<li><a href="https://github.com/ReactiveCocoa/ReactiveCocoa" target="_blank" rel="noopener">ReactiveCocoa</a>：基于响应式编程思想的oc实践（是个好东西呢）</li>
+</ul>
+<p>####License<br>Coding is available under the MIT license. See the LICENSE file for more info.</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        <li title='0' data-url='http://link.hhtjim.com/163/5146554.mp3'></li>
+                    
+                        <li title='1' data-url='http://link.hhtjim.com/qq/001faIUs4M2zna.mp3'></li>
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/diaspora.js"></script>
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</html>
