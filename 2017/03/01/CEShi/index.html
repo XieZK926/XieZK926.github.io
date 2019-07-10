@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <link rel="shortcut icon" href="/image/favicon.jpg">
+
+    
+
+    <title>
+        
+        
+    </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Plugin CSS -->
+
+
+    <!-- Custom CSS -->
+    <!-- ↓这是stylus文件 -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/toc.css">
+
+
+</head>
+<body></body>
+
+
+<body>
+
+<!-- Header -->
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header {
+     background-image: url('');
+        /*post*/
+    
+    }
+</style>
+
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- 文章 -->
+                
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1></h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                            Posted by John Doe on
+                        2017-03-01
+                        </span>
+                </div>
+                <!-- 非文章 -->
+                
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Nav -->
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="/portfolio">Portfolio</a></li>
+                    
+                    <li><a href="/about">About</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Content -->
+<!-- Content -->
+<div class="container">
+    <div class="row">
+        <!-- Post container -->
+
+        <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                post-container
+            ">
+
+            <hr>
+<h2 id="第一篇测试文章"><a href="#第一篇测试文章" class="headerlink" title="第一篇测试文章"></a>第一篇测试文章</h2><h3 id="Coding-iOS客户端项目介绍"><a href="#Coding-iOS客户端项目介绍" class="headerlink" title="Coding_iOS客户端项目介绍"></a>Coding_iOS客户端项目介绍</h3><p><em>编译环境：Xcode-Version 8.0 (8A218a)</em></p>
+<h4 id="让项目跑起来先"><a href="#让项目跑起来先" class="headerlink" title="让项目跑起来先"></a>让项目跑起来先</h4><p>项目里用到了 <a href="http://cocoapods.org/" target="_blank" rel="noopener">CocoaPods</a> 和 <a href="https://github.com/Carthage/Carthage" target="_blank" rel="noopener">Carthage</a>，如果没有安装的话，需要先自行安装。</p>
+<p>Clone 代码后，初次执行前，需要双击运行根目录下的<code>bootstrap</code>脚本。这个过程涉及到下载依赖，可能会有点久，需耐心等待。</p>
+<p><strong>Tip：由于用到了 submodule，所以必需要把 git 仓库 clone 到本地，而不是只点击‘下载’按钮下载 zip 文件！！！</strong></p>
+<table>
+<thead>
+<tr>
+<th>精彩项目</th>
+<th>任务管理</th>
+<th>项目文档</th>
+<th>代码托管</th>
+<th>趣味冒泡</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="Screenshots/1.png" alt="图片1"></td>
+<td><img src="Screenshots/2.png" alt="图片2"></td>
+<td><img src="Screenshots/3.png" alt="图片3"></td>
+<td><img src="Screenshots/4.png" alt="图片4"></td>
+<td><img src="Screenshots/5.png" alt="图片5"></td>
+</tr>
+</tbody>
+</table>
+<p>####下面介绍一下文件的大概目录先：<br>    .<br>    ├── Coding_iOS<br>    │   ├── Models：数据类<br>    │   ├── Views：视图类<br>    │   │   ├── CCell：所有的CollectionViewCell都在这里<br>    │   │   ├── Cell：所有的TableViewCell都在这里<br>    │   │   └── XXX：ListView（项目、动态、任务、讨论、文档、代码）和InputView（用于聊天和评论的输入框）<br>    │   ├── Controllers：控制器，对应app中的各个页面<br>    │   │   ├── Login：登录页面<br>    │   │   ├── RootControllers：登录后的根页面<br>    │   │   ├── MeSetting：设置信息页面<br>    │   │   └── XXX：其它页面<br>    │   ├── Images：app中用到的所有的图片都在这里<br>    │   ├── Resources：资源文件<br>    │   ├── Util：一些常用控件和Category、Manager之类<br>    │   │   ├── Common<br>    │   │   ├── Manager<br>    │   │   ├── OC_Category<br>    │   │   └── ObjcRuntime<br>    │   └── Vendor：用到的一些第三方类库，一般都有改动<br>    │       ├── AFNetworking<br>    │       ├── AGEmojiKeyboard<br>    │       ├── ASProgressPopUpView<br>    │       ├── ActionSheetPicker<br>    │       ├── FontAwesome+iOS<br>    │       ├── MJPhotoBrowser<br>    │       ├── MLEmojiLabel<br>    │       ├── NSDate+Helper<br>    │       ├── NSStringEmojize<br>    │       ├── PPiAwesomeButton<br>    │       ├── QBImagePickerController<br>    │       ├── RDVTabBarController<br>    │       ├── SMPageControl<br>    │       ├── SVPullToRefresh<br>    │       ├── SWTableViewCell<br>    │       ├── UMENG<br>    │       ├── UMessage_Sdk_1.1.0<br>    │       ├── XGPush<br>    │       ├── XTSegmentControl<br>    │       └── iCarousel<br>    └── Pods：项目使用了<a href="http://code4app.com/article/cocoapods-install-usage" target="_blank" rel="noopener">CocoaPods</a>这个类库管理工具</p>
+<p>####再说下项目的启动流程：<br>在AppDelegate的启动方法中，先设置了一下Appearance的样式，然后根据用户的登录状态选择是去加载登录页面LoginViewController，还是登录后的RootTabViewController页面。</p>
+<p>RootTabViewController继承自第三方库<a href="https://github.com/robbdimitrov/RDVTabBarController" target="_blank" rel="noopener">RDVTabBarController</a>。在RootTabViewController里面依次加载了Project_RootViewController、MyTask_RootViewController、Tweet_RootViewController、Message_RootViewController、Me_RootViewController五个RootViewController，后续的页面跳转都是基于这几个RootViewController引过去的。</p>
+<p>####项目里面还有些需要注意的点</p>
+<ul>
+<li><p>Coding_NetAPIManager：基本上app的所有请求接口都放在了这里。网络请求使用的是<a href="https://github.com/AFNetworking/AFNetworking" target="_blank" rel="noopener">AFNetworking</a>库，与服务器之间的数据交互格式用的都是json（与<a href="https://coding.net" target="_blank" rel="noopener">Coding</a>使用的api一致）。</p>
+</li>
+<li><p>关于推送：刚开始是用的<a href="http://www.umeng.com/" target="_blank" rel="noopener">友盟推送</a>，后来又改用了<a href="http://xg.qq.com/" target="_blank" rel="noopener">腾讯信鸽</a>，因为要兼顾旧版本app的推送，所以服务器是同时保留了两套推送。但是为了确保新版本的app不同时收到双份相同的推送消息，所以当前代码里还存留了友盟的sdk，用于解除推送token与友盟Alias的绑定。</p>
+</li>
+<li><p>关于ProjectViewController：这个就是进入到某个项目之后的页面，这里包含了项目的动态、任务、讨论、文档、代码、成员各类信息，而且每类信息里面还可能会有新的分类（如‘任务’里面还分有各个成员的任务）；这个页面相当的臃肿，我对它们做了拆分，都放在视图类Views目录下面。 首先是把数据列表独立成了对应的XXXListView（如ProjectTaskListView）；然后如果需要标签切换的话，会再新建一个XXXsView（如：ProjectTasksView），在这个视图中，上面会放一个切换栏<a href="https://github.com/xushao1990/XTNews" target="_blank" rel="noopener">XTSegmentControl</a>显示各个标签，下面放一个<a href="https://github.com/nicklockwood/iCarousel" target="_blank" rel="noopener">iCarousel</a>可以滑动显示各个标签的内容；最后这些视图都会存储在ProjectViewController的projectContentDict变量里面，根据顶部导航栏选择的类别，去显示或隐藏对应的视图。</p>
+</li>
+<li><p>关于UIMessageInputView：这个是私信聊天的输入框。因为这个输入框好多地方都有用到（冒泡、任务、讨论的评论还有私信），所以这个输入框就写成了一个相对独立的控件，并且直接显示在了keyWindow里面而不是某个视图里。这里的表情键盘用的是<a href="https://github.com/ayushgoel/AGEmojiKeyboard" target="_blank" rel="noopener">AGEmojiKeyboard</a>改写了一下。</p>
+</li>
+<li><p>关于Emoji：这个，<a href="https://coding.net" target="_blank" rel="noopener">Coding</a>站点的emoji都是用的图片，而且服务器是不接受大部分emoji字符的，所以刚开始的时候app一直不能处理emoji表情；又因为没有emoji图片名和emoji code码的对应关系表，所以拖了很久都没能做好转换。直到在github上面找到了<a href="https://github.com/diy/NSStringEmojize" target="_blank" rel="noopener">NSStringEmojize</a>这个项目；试了一下，虽然也不能全部解析，但是大部分表情都能正确显示了，不能更感谢。</p>
+</li>
+<li><p>关于如何正确显示冒泡的内容：api返回的数据里面，冒泡内容都是html格式，需要做一下预处理；其实私信、讨论里面的内容也是html。解析html的类名是HtmlMediaItem，它是先用<a href="https://github.com/topfunky/hpple" target="_blank" rel="noopener">hpple</a>对html进行了解析，然后把对应的media元素和对应的位置做一个存储，显示的时候便可以根据需要来显示了。</p>
+</li>
+</ul>
+<p>####最后说下<a href="http://cocoapods.org/" target="_blank" rel="noopener">CocoaPods</a>里面用到的第三方类库</p>
+<ul>
+<li><a href="https://github.com/rs/SDWebImage" target="_blank" rel="noopener">SDWebImage</a>：图片加载</li>
+<li><a href="https://github.com/TTTAttributedLabel/TTTAttributedLabel" target="_blank" rel="noopener">TTTAttributedLabel</a>：富文本的label，可点击链接</li>
+<li><a href="https://github.com/wezm/RegexKitLite" target="_blank" rel="noopener">RegexKitLite</a>：正则表达式</li>
+<li><a href="https://github.com/topfunky/hpple" target="_blank" rel="noopener">hpple</a>：html解析</li>
+<li><a href="https://github.com/jdg/MBProgressHUD" target="_blank" rel="noopener">MBProgressHUD</a>：hud提示框</li>
+<li><a href="https://github.com/Sephiroth87/ODRefreshControl" target="_blank" rel="noopener">ODRefreshControl</a>：下拉刷新</li>
+<li><a href="https://github.com/michaeltyson/TPKeyboardAvoiding" target="_blank" rel="noopener">TPKeyboardAvoiding</a>：有文字输入时，能根据键盘是否弹出来调整自身显示内容的位置</li>
+<li><a href="https://github.com/jaydee3/JDStatusBarNotification" target="_blank" rel="noopener">JDStatusBarNotification</a>：状态栏提示框</li>
+<li><a href="https://github.com/zwaldowski/BlocksKit" target="_blank" rel="noopener">BlocksKit</a>：block工具包。将很多需要用delegate实现的方法整合成了block的形式</li>
+<li><a href="https://github.com/ReactiveCocoa/ReactiveCocoa" target="_blank" rel="noopener">ReactiveCocoa</a>：基于响应式编程思想的oc实践（是个好东西呢）</li>
+</ul>
+<p>####License<br>Coding is available under the MIT license. See the LICENSE file for more info.</p>
+
+
+
+            <!-- Pager -->
+            <ul class="pager">
+                
+                <li class="previous">
+                    <a href="/2018/08/14/hello-world/" >&larr; Previous Post</a>
+                </li>
+                
+                
+            </ul>
+
+
+
+        </div>
+        <!-- Sidebar container-->
+        <div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+            <!-- toc -->
+            <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top" role="complementary">
+                <h4><i class="fa fa-bookmark"></i> Catalog</h4>
+                <ul class="nav bs-docs-sidenav">
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                
+
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy;  2018
+                    <br>
+                    Theme by <a href="http://beantech.org/">Bean Tech</a>
+                    <span style="display: inline-block; margin: 0 5px;">
+                        <i class="fa fa-heart"></i>
+                    </span> 
+                    re-Ported by <a href="http://yoursite.com"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/script.js"></script>
+
+
+
+
+</body>
+</html>
