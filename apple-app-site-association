@@ -1,0 +1,66 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "32UL26EAX2.com.mcdonalds.gma.cn.qa",
+                "paths": [
+		   "NOT /partner/*",
+		   "NOT /mini-mfe/#/qr/foreignCardPayment/index?*",
+           "NOT /mini-mfe/#/qr/s/index?*",
+		   "NOT /mini-mfe/#/pages/mdmsEmailResult/*",
+           "NOT /membership/*",
+           "NOT /clip/*",
+           "NOT /clip_qa/*",
+                    "*"
+                ]
+            },
+            {
+                "appID": "32UL26EAX2.com.mcdonalds.gma.cn",
+                "paths": [
+		   "NOT /partner/*",
+		   "NOT /mini-mfe/#/qr/foreignCardPayment/index?*",
+           "NOT /mini-mfe/#/qr/s/index?*",
+		   "NOT /mini-mfe/#/pages/mdmsEmailResult/*",
+           "NOT /membership/*",
+           "NOT /clip/*",
+           "NOT /clip_qa/*",
+                    "*"
+                ]
+            },
+	    {
+                "appID": "76JTF5F4AU.com.mcdonalds.gma.cn.qa",
+                "paths": [
+		   "NOT /partner/*",
+		   "NOT /mini-mfe/#/qr/foreignCardPayment/index?*",
+           "NOT /mini-mfe/#/qr/s/index?*",
+		   "NOT /mini-mfe/#/pages/mdmsEmailResult/*",
+           "NOT /membership/*",
+           "NOT /clip/*",
+           "NOT /clip_qa/*",
+                    "*"
+                ]
+            }
+        ]
+    },
+    "appclips": {
+        "apps": [
+            "32UL26EAX2.com.mcdonalds.gma.cn.qa.Clip",
+            "32UL26EAX2.com.mcdonalds.gma.cn.Clips"
+        ],
+        "details": [
+            {
+                "app": "32UL26EAX2.com.mcdonalds.gma.cn.Clips",
+                "paths": [
+                    "/clip/*"
+                ]
+            },
+            {
+                "app": "32UL26EAX2.com.mcdonalds.gma.cn.qa.Clip",
+                "paths": [
+                    "/clip_qa/*"
+                ]
+            }
+        ]
+    }
+}
