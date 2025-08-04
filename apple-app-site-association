@@ -10,8 +10,28 @@
            "NOT /mini-mfe/#/qr/s/index?*",
 		   "NOT /mini-mfe/#/pages/mdmsEmailResult/*",
            "NOT /membership/*",
-           "NOT /clip/*",
-           "NOT /clip_qa/*",
+                    "*"
+                ]
+            },
+            {
+                "appID": "32UL26EAX2.com.mcdonalds.gma.cn",
+                "paths": [
+		   "NOT /partner/*",
+		   "NOT /mini-mfe/#/qr/foreignCardPayment/index?*",
+           "NOT /mini-mfe/#/qr/s/index?*",
+		   "NOT /mini-mfe/#/pages/mdmsEmailResult/*",
+           "NOT /membership/*",
+                    "*"
+                ]
+            },
+	    {
+                "appID": "76JTF5F4AU.com.mcdonalds.gma.cn.qa",
+                "paths": [
+		   "NOT /partner/*",
+		   "NOT /mini-mfe/#/qr/foreignCardPayment/index?*",
+           "NOT /mini-mfe/#/qr/s/index?*",
+		   "NOT /mini-mfe/#/pages/mdmsEmailResult/*",
+           "NOT /membership/*",
                     "*"
                 ]
             }
