@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            margin: 0;
+            padding: 0;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('https://via.placeholder.com/1600x400') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .boxes {
+            margin-top: 20px;
+        }
+        .box {
+            float: left;
+            text-align: center;
+            width: 30%;
+            padding: 10px;
+        }
+        .box img {
+            width: 90px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #e8491d;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">我的</span>博客</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">首页</a></li>
+                    <li><a href="#">文章</a></li>
+                    <li><a href="#">关于</a></li>
+                    <li><a href="#">联系</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>欢迎来到我的博客</h1>
+            <p>在这里分享我的技术经验、生活感悟和创作灵感</p>
+        </div>
+    </section>
+
+    <section class="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="https://via.placeholder.com/90" alt="技术文章">
+                <h3>技术文章</h3>
+                <p>分享编程、开发相关的技术知识和经验</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/90" alt="生活随笔">
+                <h3>生活随笔</h3>
+                <p>记录生活中的点滴和感悟</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/90" alt="创作灵感">
+                <h3>创作灵感</h3>
+                <p>分享设计、写作等方面的创作灵感</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>我的博客 &copy; 2024</p>
+    </footer>
+</body>
+</html>
