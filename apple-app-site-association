@@ -1,13 +1,5 @@
 {
     "appclips": {
-        "apps": [],
-        "details": [
-            {
-                "app": "32UL26EAX2.com.mcdonalds.gma.cn.qa.Clip",
-                "paths": [
-                    "*"
-                ]
-            }
-        ]
+        "apps": ["32UL26EAX2.com.mcdonalds.gma.cn.qa.Clip"]
     }
 }
