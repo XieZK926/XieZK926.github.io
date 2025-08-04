@@ -36,5 +36,18 @@
                 ]
             }
         ]
+    },
+    "appclips": {
+        "apps": [
+            "32UL26EAX2.com.mcdonalds.gma.cn.qa.Clip"
+        ],
+        "details": [
+            {
+                "app": "32UL26EAX2.com.mcdonalds.gma.cn.qa.Clip",
+                "paths": [
+                    "/clip/*"
+                ]
+            }
+        ]
     }
 }
