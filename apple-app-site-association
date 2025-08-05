@@ -5,4 +5,23 @@
             "REG92Q3Q5S.net.csdn.CsdnPlus.Clip"
         ]
     },
+    "applinks":{
+        "apps":[
+
+        ],
+        "details":[
+            {
+                "appID":"8NNN8RMJFZ.net.csdn.CsdnPlus",
+                "paths":[
+                    "*"
+                ]
+            },
+            {
+                "appID":"REG92Q3Q5S.net.csdn.CsdnPlus",
+                "paths":[
+                    "*"
+                ]
+            }
+        ]
+    }
 }
