@@ -6,6 +6,13 @@
     },
     "applinks": {
         "apps": [],
-        "details": []
+        "details": [
+            {
+                "appID": "32UL26EAX2.com.mcdonalds.gma.cn.qa",
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
     }
 }
